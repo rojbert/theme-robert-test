@@ -1,5 +1,6 @@
 {
  "slug": "robert/test",
  "parent": "zuu-foundation/starter-bootstrap-presets",
- "preset": "default"
+ "preset": "default",
+ "name": "test"
 }
