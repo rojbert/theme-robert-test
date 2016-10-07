@@ -1,0 +1,40 @@
+{
+	"page": {
+		"title": "Podstrona z atrakcjami"
+	},
+	
+	"sections": [
+		{
+			"title": "Sekcja text [1]",
+			"type": "atrakcje",
+			"atrakcje": [
+				{
+					"name": "Snieżka",
+					"subtitle": "Gora"
+				},
+				{
+					"name": "Zamek chojnik",
+					"subtitle": "Costam"
+				}
+			]
+		},
+		{
+			"title": "Sekcja text-image [1]",
+			"type": "text-image"
+		},
+		{
+			"title": "Sekcja text-image[2]",
+			"type": "text-image",
+			"class": "inverse"
+		},
+		{
+			"title": "Sekcja text [2]",
+			"type": "text"			
+		},
+		{
+			"title": "Sekcja highlights",
+			"type": "highlights",
+			"class": "inverse text-center"			
+		}
+	]
+}
