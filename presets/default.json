@@ -1,1 +1,23 @@
-{"name":null,"variables":{"colors":{"name":null,"parent":"autumn-leaves","variables":[],"imports":[]},"mappings":{"name":null,"parent":"default","variables":[],"imports":[]},"typography":{"name":null,"parent":"roboto","variables":[],"imports":[]}}}
+{
+    "name": null,
+    "variables": {
+        "colors": {
+            "name": null,
+            "parent": "deep-sky",
+            "variables": [],
+            "imports": []
+        },
+        "mappings": {
+            "name": null,
+            "parent": "default",
+            "variables": [],
+            "imports": []
+        },
+        "typography": {
+            "name": null,
+            "parent": "roboto",
+            "variables": [],
+            "imports": []
+        }
+    }
+}
