@@ -1,5 +1,38 @@
-//robert/test/assets/less/style.less
+.debug-colors { position:fixed; top:50%; left:0; width:90px;
+	div { width:100%; float:left; font-size:10px; line-height:30px; text-align:center; color:#000} 
+}
+.c-1 { background:@dark-color}
+.c-2 { background:@light-color}
+.c-3 { background:@brand-primary}
+.c-4 { background:@brand-success}
 
-div {
-	color:red;
+* { color:average(@dark-color, @light-color)}
+
+.test { color:blue}
+p:extend(.test) {}
+
+
+.border(@round) { border-radius:@round}
+.btn {
+	.border(15px);
+}
+
+
+
+.generate-columns(4);
+
+.generate-columns(@n, @i: 1) when (@i =< @n) {
+  .c-@{i} {
+    height: (@i*5 + 30px);
+  }
+  .generate-columns(@n, (@i + 1));
+}
+
+
+.btn-big() {
+  transform+_:skewX(10deg);
+}
+.img-responsive {
+  .btn-big();
+  transform+_: rotate(15deg);
 }
