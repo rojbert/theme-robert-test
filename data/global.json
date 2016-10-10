@@ -1,0 +1,5 @@
+{
+	"mainNav": {
+		"class": ["navbar-custom", "navbar-fixed-top"]
+	}
+}
