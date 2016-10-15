@@ -1,5 +1,6 @@
 {
 	"mainNav": {
-		"class": ["navbar-custom", "navbar-fixed-top", "navbar-flex"]
+		"class": ["navbar-custom", "navbar-fixed-top", "navbar-flex"],
+		"width": ["full"]
 	}
 }
