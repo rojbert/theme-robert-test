@@ -1,11 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
-    <div class="full-image">
-
 	<h1><span>{{ $data->page->title }}</span></h1>   
-    
-     </div>
     
     @include('includes.sections')
     
