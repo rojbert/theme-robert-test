@@ -1,51 +1,51 @@
 {
-	"mainNav": {
-		"class": ["navbar-custom", "navbar-fixed-top", "navbar-flex"],
-		"width": ["full"]
-	},
-	"conf": {
-			"item": 1,
-			"slideMove": 1,
-			"slideMargin": 0,
-			"mode-transition": "fade",
-			"auto-play": "true",
-			"speed-transition": 2000,
-			"pause-onstage": 5000,
-			"controls": "true",
-			"link": "true",
-			"pager-pagination": "true"
-		},
-		
-		"elements": [
-			{
-				"img": "http://img.wallpaperfolder.com/f/6AA7939A3317/landscape-nature-animals-2000.jpg",
-				"title": 
-					{
-					"name": "Niesamowite góry",
-					"link": "/oferta",			
-					"btn-name": "read more"
-					}
-				
-			},
-			{
-				"img": "http://img.wallpaperfolder.com/f/536899F9704F/asia-singapore-night-thrasher-skateboard.jpg",
-				"title": 
-					{
-					"name": "Miejsce dla zakochanych",
-					"link": "/oferta1",			
-					"btn-name": "read more second"
-					}
-				
-			},
-			{
-				"img": "http://img.wallpaperfolder.com/f/46BD11409FF3/scene-da-un-matrimonio-film.jpg",
-				"title": 
-					{
-					"name": "Super czas dla mas",
-					"link": "/oferta1",			
-					"btn-name": "read more second"
-					}
-				
-			}
-		]
-	}
+  "mainNav": {
+    "class": ["navbar-custom", "navbar-fixed-top", "navbar-flex"],
+    "width": ["full"]
+  },
+  "conf": {
+    "item": 1,
+    "slideMove": 1,
+    "slideMargin": 0,
+    "modeTransition": "fade",
+    "autoPlay": "true",
+    "speedTransition": 2000,
+    "pauseOnstage": 5000,
+    "controls": "true",
+    "link": "true",
+    "pagerPagination": "true"
+  },
+  
+  "elements": [
+  {
+    "img": "http://img.wallpaperfolder.com/f/6AA7939A3317/landscape-nature-animals-2000.jpg",
+    "title": 
+    {
+      "name": "Niesamowite góry",
+      "link": "/oferta",  
+      "btnName": "read more"
+    }
+    
+  },
+  {
+    "img": "http://img.wallpaperfolder.com/f/536899F9704F/asia-singapore-night-thrasher-skateboard.jpg",
+    "title": 
+    {
+      "name": "Miejsce dla zakochanych",
+      "link": "/oferta1",  
+      "btnName": "read more second"
+    }
+    
+  },
+  {
+    "img": "http://img.wallpaperfolder.com/f/46BD11409FF3/scene-da-un-matrimonio-film.jpg",
+    "title": 
+    {
+      "name": "Super czas dla mas",
+      "link": "/oferta1",  
+      "btnName": "read more second"
+    }
+    
+  }
+  ]
+  }
