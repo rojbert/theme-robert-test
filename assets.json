@@ -1,13 +1,1 @@
-{
-	"local": {
-		
-		"js": {
-			"scripts": ["js/scripts.js", ["jquery"]]
-		},
-		
-		"css": {},
-		
-		"less": {}
-		
-	}
-}
+{}
