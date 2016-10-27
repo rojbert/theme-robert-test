@@ -8,8 +8,8 @@
     "controlsLR": "true",
     "pagination": "true",	
     "content": "1",
-	"lSHeight" : "90vh";
-	"lSZoom" : "1.15,8s";
+	"lSHeight" : "90vh",
+	"lSZoom" : "1.15,8s",
 	"lSMask" : "@dark-color,0.4"
   },
   
