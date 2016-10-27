@@ -3,45 +3,45 @@
     "class": ["navbar-custom", "navbar-fixed-top", "navbar-flex"],
     "width": ["full"]
   },
-  "conf": {
-    "item": 1,
-    "slideMove": 1,
-    "slideMargin": 0,
-    "modeTransition": "fade",
-    "autoPlay": "true",
-    "speedTransition": 2000,
-    "pauseOnstage": 5000,
-    "controls": "true",
-    "link": "true",
-    "pagerPagination": "true"
+  "lSconf": {
+    "transition": "fade",
+    "controlsLR": "true",
+    "pagination": "true",	
+    "content": "1",
+	"lSHeight" : "90vh";
+	"lSZoom" : "1.15,8s";
+	"lSMask" : "@dark-color,0.4"
   },
   
-  "elements": [
+  "lSelements": [
   {
-    "img": "http://img.wallpaperfolder.com/f/6AA7939A3317/landscape-nature-animals-2000.jpg",
+    "img": "http://zabas.ayz.pl/zuu/examples-bg/zuu1.jpg",
     "title": 
     {
       "name": "Niesamowite góry",
+	  "namesub": "Podstytył 1",
       "link": "/oferta",  
       "btnName": "read more"
     }
     
   },
   {
-    "img": "http://img.wallpaperfolder.com/f/536899F9704F/asia-singapore-night-thrasher-skateboard.jpg",
+    "img": "http://zabas.ayz.pl/zuu/examples-bg/zuu2.jpg",
     "title": 
     {
       "name": "Miejsce dla zakochanych",
+  	  "namesub": "",
       "link": "/oferta1",  
       "btnName": "read more second"
     }
     
   },
   {
-    "img": "http://img.wallpaperfolder.com/f/46BD11409FF3/scene-da-un-matrimonio-film.jpg",
+    "img": "http://zabas.ayz.pl/zuu/examples-bg/zuu3.jpg",
     "title": 
     {
       "name": "Super czas dla mas",
+	  "namesub": "Podstytył 3",	  
       "link": "/oferta1",  
       "btnName": "read more second"
     }
